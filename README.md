@@ -26,10 +26,29 @@ const element = await autoHeal.find(page, page.locator('#username'), 'Username i
 2. ✅ An AI API key (Google Gemini recommended - free tier available)
 3. ✅ 5 minutes to integrate
 
+---
+
+## 🎯 New to AutoHeal? Start Here!
+
+**Want to create your own AutoHeal project from scratch?**
+
+👉 **[START HERE - Complete Beginner's Guide](START_HERE.md)** 👈
+
+This step-by-step guide walks you through:
+- ✅ Creating a new Playwright project from zero
+- ✅ Installing and configuring AutoHeal
+- ✅ Building your first self-healing test
+- ✅ No prior knowledge required!
+
+**Already have a project?** Continue reading below to add AutoHeal to your existing tests.
+
+---
+
 ## 📚 Table of Contents
 
-- [START HERE - Quick Start](#-start-here---quick-start) - Run the demo project in 5 minutes
-- [Implementing in Your Own Project](#-implementing-in-your-own-project) - Add AutoHeal to your project
+- **[START HERE - Complete Beginner's Guide](START_HERE.md)** - Create your own project from scratch (No prior knowledge required!)
+- [Quick Start](#-start-here---quick-start) - Run this demo project in 5 minutes
+- [Implementing in Your Own Project](#-implementing-in-your-own-project) - Add AutoHeal to existing project
 - [AI Provider Setup](#-ai-provider-setup) - Configure AI providers
 - [Testing AI Healing](#-testing-ai-healing) - See healing in action
 - [How It Works](#-how-it-works) - Understanding the healing flow
