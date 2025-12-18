@@ -1,0 +1,25 @@
+{
+  "name": "autoheal-playwright-demo-ts",
+  "version": "1.0.0",
+  "description": "Complete Playwright TypeScript demo with AutoHeal self-healing locators",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:debug": "playwright test --debug",
+    "report": "playwright show-report"
+  },
+  "keywords": ["playwright", "autoheal", "testing", "e2e", "self-healing"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@sdetsanjay/autoheal-locator": "^1.0.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.2.0"
+  }
+}
